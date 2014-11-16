@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D147CB1A18934600374580 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D147CA1A18934600374580 /* Cocoa.framework */; };
+		46D147D51A18934600374580 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46D147D31A18934600374580 /* InfoPlist.strings */; };
+		46D147D71A18934600374580 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D147D61A18934600374580 /* main.m */; };
+		46D147DB1A18934600374580 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 46D147D91A18934600374580 /* Credits.rtf */; };
+		46D147DE1A18934600374580 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D147DD1A18934600374580 /* AppDelegate.m */; };
+		46D147E11A18934600374580 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46D147DF1A18934600374580 /* MainMenu.xib */; };
+		46D147E31A18934600374580 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D147E21A18934600374580 /* Images.xcassets */; };
+		46D147EA1A18934600374580 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D147E91A18934600374580 /* XCTest.framework */; };
+		46D147EB1A18934600374580 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D147CA1A18934600374580 /* Cocoa.framework */; };
+		46D147F31A18934600374580 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46D147F11A18934600374580 /* InfoPlist.strings */; };
+		46D147F51A18934600374580 /* ScreenshotAndMailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D147F41A18934600374580 /* ScreenshotAndMailTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46D147EC1A18934600374580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46D147BF1A18934600374580 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46D147C61A18934600374580;
+			remoteInfo = ScreenshotAndMail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46D147C71A18934600374580 /* ScreenshotAndMail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenshotAndMail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D147CA1A18934600374580 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		46D147CD1A18934600374580 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		46D147CE1A18934600374580 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		46D147CF1A18934600374580 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		46D147D21A18934600374580 /* ScreenshotAndMail-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenshotAndMail-Info.plist"; sourceTree = "<group>"; };
+		46D147D41A18934600374580 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46D147D61A18934600374580 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46D147D81A18934600374580 /* ScreenshotAndMail-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenshotAndMail-Prefix.pch"; sourceTree = "<group>"; };
+		46D147DA1A18934600374580 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		46D147DC1A18934600374580 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46D147DD1A18934600374580 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46D147E01A18934600374580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		46D147E21A18934600374580 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46D147E81A18934600374580 /* ScreenshotAndMailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenshotAndMailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D147E91A18934600374580 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		46D147F01A18934600374580 /* ScreenshotAndMailTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenshotAndMailTests-Info.plist"; sourceTree = "<group>"; };
+		46D147F21A18934600374580 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		46D147F41A18934600374580 /* ScreenshotAndMailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenshotAndMailTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D147C41A18934600374580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D147CB1A18934600374580 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D147E51A18934600374580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D147EB1A18934600374580 /* Cocoa.framework in Frameworks */,
+				46D147EA1A18934600374580 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D147BE1A18934600374580 = {
+			isa = PBXGroup;
+			children = (
+				46D147D01A18934600374580 /* ScreenshotAndMail */,
+				46D147EE1A18934600374580 /* ScreenshotAndMailTests */,
+				46D147C91A18934600374580 /* Frameworks */,
+				46D147C81A18934600374580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D147C81A18934600374580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D147C71A18934600374580 /* ScreenshotAndMail.app */,
+				46D147E81A18934600374580 /* ScreenshotAndMailTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D147C91A18934600374580 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D147CA1A18934600374580 /* Cocoa.framework */,
+				46D147E91A18934600374580 /* XCTest.framework */,
+				46D147CC1A18934600374580 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46D147CC1A18934600374580 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46D147CD1A18934600374580 /* AppKit.framework */,
+				46D147CE1A18934600374580 /* CoreData.framework */,
+				46D147CF1A18934600374580 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		46D147D01A18934600374580 /* ScreenshotAndMail */ = {
+			isa = PBXGroup;
+			children = (
+				46D147DC1A18934600374580 /* AppDelegate.h */,
+				46D147DD1A18934600374580 /* AppDelegate.m */,
+				46D147DF1A18934600374580 /* MainMenu.xib */,
+				46D147E21A18934600374580 /* Images.xcassets */,
+				46D147D11A18934600374580 /* Supporting Files */,
+			);
+			path = ScreenshotAndMail;
+			sourceTree = "<group>";
+		};
+		46D147D11A18934600374580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46D147D21A18934600374580 /* ScreenshotAndMail-Info.plist */,
+				46D147D31A18934600374580 /* InfoPlist.strings */,
+				46D147D61A18934600374580 /* main.m */,
+				46D147D81A18934600374580 /* ScreenshotAndMail-Prefix.pch */,
+				46D147D91A18934600374580 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46D147EE1A18934600374580 /* ScreenshotAndMailTests */ = {
+			isa = PBXGroup;
+			children = (
+				46D147F41A18934600374580 /* ScreenshotAndMailTests.m */,
+				46D147EF1A18934600374580 /* Supporting Files */,
+			);
+			path = ScreenshotAndMailTests;
+			sourceTree = "<group>";
+		};
+		46D147EF1A18934600374580 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46D147F01A18934600374580 /* ScreenshotAndMailTests-Info.plist */,
+				46D147F11A18934600374580 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D147C61A18934600374580 /* ScreenshotAndMail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D147F81A18934600374580 /* Build configuration list for PBXNativeTarget "ScreenshotAndMail" */;
+			buildPhases = (
+				46D147C31A18934600374580 /* Sources */,
+				46D147C41A18934600374580 /* Frameworks */,
+				46D147C51A18934600374580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreenshotAndMail;
+			productName = ScreenshotAndMail;
+			productReference = 46D147C71A18934600374580 /* ScreenshotAndMail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46D147E71A18934600374580 /* ScreenshotAndMailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D147FB1A18934600374580 /* Build configuration list for PBXNativeTarget "ScreenshotAndMailTests" */;
+			buildPhases = (
+				46D147E41A18934600374580 /* Sources */,
+				46D147E51A18934600374580 /* Frameworks */,
+				46D147E61A18934600374580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46D147ED1A18934600374580 /* PBXTargetDependency */,
+			);
+			name = ScreenshotAndMailTests;
+			productName = ScreenshotAndMailTests;
+			productReference = 46D147E81A18934600374580 /* ScreenshotAndMailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D147BF1A18934600374580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AbhishekBanthia;
+				TargetAttributes = {
+					46D147E71A18934600374580 = {
+						TestTargetID = 46D147C61A18934600374580;
+					};
+				};
+			};
+			buildConfigurationList = 46D147C21A18934600374580 /* Build configuration list for PBXProject "ScreenshotAndMail" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D147BE1A18934600374580;
+			productRefGroup = 46D147C81A18934600374580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D147C61A18934600374580 /* ScreenshotAndMail */,
+				46D147E71A18934600374580 /* ScreenshotAndMailTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D147C51A18934600374580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D147D51A18934600374580 /* InfoPlist.strings in Resources */,
+				46D147E31A18934600374580 /* Images.xcassets in Resources */,
+				46D147DB1A18934600374580 /* Credits.rtf in Resources */,
+				46D147E11A18934600374580 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D147E61A18934600374580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D147F31A18934600374580 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D147C31A18934600374580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D147DE1A18934600374580 /* AppDelegate.m in Sources */,
+				46D147D71A18934600374580 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D147E41A18934600374580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D147F51A18934600374580 /* ScreenshotAndMailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46D147ED1A18934600374580 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46D147C61A18934600374580 /* ScreenshotAndMail */;
+			targetProxy = 46D147EC1A18934600374580 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46D147D31A18934600374580 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D147D41A18934600374580 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		46D147D91A18934600374580 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D147DA1A18934600374580 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		46D147DF1A18934600374580 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D147E01A18934600374580 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		46D147F11A18934600374580 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D147F21A18934600374580 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D147F61A18934600374580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		46D147F71A18934600374580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46D147F91A18934600374580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenshotAndMail/ScreenshotAndMail-Prefix.pch";
+				INFOPLIST_FILE = "ScreenshotAndMail/ScreenshotAndMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		46D147FA1A18934600374580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenshotAndMail/ScreenshotAndMail-Prefix.pch";
+				INFOPLIST_FILE = "ScreenshotAndMail/ScreenshotAndMail-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		46D147FC1A18934600374580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScreenshotAndMail.app/Contents/MacOS/ScreenshotAndMail";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenshotAndMail/ScreenshotAndMail-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ScreenshotAndMailTests/ScreenshotAndMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		46D147FD1A18934600374580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ScreenshotAndMail.app/Contents/MacOS/ScreenshotAndMail";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScreenshotAndMail/ScreenshotAndMail-Prefix.pch";
+				INFOPLIST_FILE = "ScreenshotAndMailTests/ScreenshotAndMailTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D147C21A18934600374580 /* Build configuration list for PBXProject "ScreenshotAndMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D147F61A18934600374580 /* Debug */,
+				46D147F71A18934600374580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D147F81A18934600374580 /* Build configuration list for PBXNativeTarget "ScreenshotAndMail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D147F91A18934600374580 /* Debug */,
+				46D147FA1A18934600374580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46D147FB1A18934600374580 /* Build configuration list for PBXNativeTarget "ScreenshotAndMailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D147FC1A18934600374580 /* Debug */,
+				46D147FD1A18934600374580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46D147BF1A18934600374580 /* Project object */;
+}
