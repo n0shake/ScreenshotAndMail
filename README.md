@@ -1,4 +1,4 @@
-# ScreenshotAndMail
+# Screenshot And Mail for Cocoa applications
 
 Steps:
 
