@@ -8,7 +8,7 @@
 - We save the file locally
 - And finally, we open the file with the Mail application
 
-![](/https://cloud.githubusercontent.com/assets/8280282/7342039/e437c954-ecca-11e4-9c28-cc2c97888e15.png)
+![](/[https://cloud.githubusercontent.com/assets/8280282/7342039/e437c954-ecca-11e4-9c28-cc2c97888e15.png](Example Image "Example Image"))
 
 
 *REMEMBER TO DELETE THE SAVED IMAGE AFTER A TIME DURATION*
