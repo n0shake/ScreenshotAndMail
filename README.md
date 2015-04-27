@@ -1,13 +1,14 @@
 # Screenshot And Mail for Cocoa applications
 
-Steps:
+### Steps:
 
---> Using windowID, capture screen
---> captured screen will be in CGRef format
---> Convert it to NSImage
---> Convert it to NSData using TIFFPresentation
---> Save the file locally
---> Open the file with Mail app
+- Using windowID, we capture the screen
+- Captured screen will be in CGRef format. We convert it to NSImage
+- NSImage to NSData using TIFFPresentation
+- We save the file locally
+- And finally, we open the file with the Mail application
+
+
 
 
 *REMEMBER TO DELETE THE SAVED IMAGE AFTER A TIME DURATION*
